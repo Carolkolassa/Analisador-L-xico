@@ -1,4 +1,7 @@
 # Analisador-Léxico
+
+Aluna: Caroline Paula Kolassa
+
 Analisador Léxico para a disciplina de Linguagens Formais 2022
 
 Utiliza CSS, JavaScript, HTML, jQuery e materialize
