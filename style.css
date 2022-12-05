@@ -1,0 +1,57 @@
+
+h3{
+	font-size: 30px;
+	text-align: center;
+	background-color: rgb(87, 168, 179);
+}
+
+.my_td{
+	width: 3%;
+}
+
+.response{
+	margin-bottom: 20; 
+	text-align: center;
+	color: black;
+}
+
+.addPalavra{
+	background-color: rgb(5, 30, 34);
+}
+
+.buscaPalavra{
+	background-color: rgb(5, 30, 34);
+	
+}
+
+.inserirPalavra{
+	text-align: center;
+}
+
+.encontrarPalavra{
+	text-align: center;
+}
+
+.table_design{
+	margin-bottom: 0; 
+	padding-bottom: 0;
+	padding: 1% 0% 0% 2% ;
+}
+
+.ajustaAlfabeto {
+	padding: 0% 0% 0% 1% ;
+}
+
+table.table_automato tbody{
+	height: 300px; 
+	overflow: auto;
+}
+
+input, button, .modal-content{
+	border-radius: 0px ;
+}
+
+.container{
+	background-color: rgb(225, 228, 229);
+}
+

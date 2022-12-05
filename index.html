@@ -1,0 +1,58 @@
+<!DOCTYPE hmtl>
+<html>
+<head>
+  <title>Analisador Léxico</title>
+  <meta charset="utf-8">
+  <link href="style.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+</head>
+<body>
+  <div class="container">
+      <h3>Analisador Léxico da Carol 😃</h3>
+    <div class="row">
+      <div class="response ">
+        <div class="addPalavra">
+        <label>Adicionar palavras</label>
+      </div>
+        <input type="text" class="form-control inserirPalavra" data-placement="top" data-content="Digite a palavra"
+         aria-describedby="basic-addon2" />
+        <button type="button" class=" inserePalavra">Adicionar</button>
+      </div>
+      <div class="response col s12 m3 l4">
+        <div class="buscaPalavra">
+        <label>Buscar palavras</label>
+      </div>
+        <input type="text" class="form-control encontrarPalavra" data-placement="top" title="" data-content="Digite a palavra"
+             aria-describedby="basic-addon2" />
+            <button type="button" class=" buscar">Buscar</button>
+      </div>
+      <div class="response">
+        <button data-target="botaoApagar" class="red limparTabela">Apagar Tabela</button>
+    </div>
+    </div>
+      <div class="row">
+        <div class="ajustaAlfabeto">
+        </div>
+      </div>
+      <div class="row">
+        <div class="main table_design">
+          <div class="table-responsive">
+            <table class="table table_automato">
+              <thead>
+                <tr class="alfabeto">     
+                </tr>
+              </thead>
+              <tbody class="palavrasInseridas">
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+  </div>
+  <script src="jquery.min.js"></script>
+  <script src="script.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</body>
+
+</html>
